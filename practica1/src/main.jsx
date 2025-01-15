@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 
 //Importamos los componentes creados
-import {Home} from './Home'
+import {App} from './App'
 
 //Importamos los estilos
 // import './index.css'
@@ -10,8 +10,7 @@ import {Home} from './Home'
 
 createRoot(document.getElementById('root')).render(
   <React.Fragment>
-    <Home />
-
+    <App />
   </React.Fragment>
 
 )

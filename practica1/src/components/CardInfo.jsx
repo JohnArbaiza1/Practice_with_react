@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 //Importamos los estilos
-import './CSS/card.css'
+import '../CSS/card.css'
 
 //Definimos el componentes cardInfo y lo exportamos
 export function CardInfo({imgSRC,children}){
